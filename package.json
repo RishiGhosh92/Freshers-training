@@ -1,0 +1,19 @@
+{
+  "name": "training",
+  "version": "1.0.0",
+  "description": "Sku Sync",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Rishi Ghosh",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "async-redis": "^1.1.7",
+    "hapi": "^18.1.0",
+    "lodash": "^4.17.11",
+    "pg-promise": "^8.7.2",
+    "redis": "^2.8.0"
+  }
+}
